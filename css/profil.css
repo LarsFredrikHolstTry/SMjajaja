@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.body {
+    background-color: #35383C;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.NON_table tbody {
+    background-color: #070707;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 13px;
+}
+
+.box {
+    margin-top: 10px;
+    width: 600px;
+    background-color: #0f0e0e;
+    min-height: 100px;
+    padding-top: 1px;
+    overflow:hidden;
+}
+
+td {
+    color: white;
+    padding: 2px;
+}
+
+.tcolor_1 {
+    background-color: #0f0e0e;
+    padding-top: 5px;
+}
+
+.tcolor_2 {
+    background-color: #0f0e0e;
+    padding-top: 5px;
+}
+
+.td_right {
+    height: 20px;
+    padding-right: 5px;
+    width: 200px;
+    text-align: right;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.td_left {
+    padding-left: 5px;
+    width: 250px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#admin_endre_bruker {
+    margin-bottom: -10px;
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#admin_endre_bruker:hover {
+    color: white;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#fritekst {
+    border-top: 1px solid black;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #0f0e0e;
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 1s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}

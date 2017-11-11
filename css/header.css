@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #191919;
+}
+
+/* right menu bar */
+#header img {
+    margin-top: 16px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    position: relative; 
+    width: 100%;
+}
+
+#infoheader {
+    width: 1000px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #0f0e0e;
+    color: aliceblue;
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#infoheader a {
+    font-size: 12px;
+    margin: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#infoheader a:hover {
+    color: #c81113;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#infoheader #red {
+    color: #c81113;
+}
+
+#brukeronline a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    position: absolute;;
+    top: 135px;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+#brukeronline a:hover {
+    color: #c81113;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+::-webkit-scrollbar
+{
+  width: 10px;  /* for vertical scrollbars */
+  height: 10px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.0);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,310 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#sm-tp-hdr {
+    padding-top: 5px;
+    width: 600px;
+    height: 20px;
+    color: white;
+    background-color: #070707;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sm-box20 {
+    width: 600px;
+    height: 20px;
+    padding-top: 5px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sm-box38 {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 600px; 
+    height: 38px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+} 
+
+
+#sm-box38l {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 600px; 
+    height: 38px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#sm-box60 {
+    padding-top: 5px;
+    width: 600px; 
+    height: 60px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#sm-box280 {
+    padding-top: 5px;
+    width: 600px; 
+    height: 280px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#sm-boxmh2 {
+    padding-top: 5px;
+    width: 600px; 
+    min-height: 2%;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sm-cntr {
+    padding-top: 10px;
+}
+
+#sm-wrpr {
+    width: 600px;
+}
+
+/*/////////////////////////////////////////////////////*/
+/*           UNIVERSAL DESIGN FOR A-LINK               */
+/*             BRUKES SOM REGEL PÅ NICK                */
+/*/////////////////////////////////////////////////////*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: dimgray;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*/////////////////////////////////////////////////////*/
+/*           UNIVERSAL DESIGN FOR INPUT                */
+/*/////////////////////////////////////////////////////*/
+
+input[type=text] {
+    padding: 5px 10px;
+    background-color: #191919;
+    border: 1px solid #070707;
+    color: white;
+    outline: none;
+}
+
+
+input[type=text]:focus {
+    border: 1px solid #393939;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+textarea {
+    padding: 5px 10px;
+    background-color: #191919;
+    border: 1px solid #070707;
+    color: white;
+    outline: none;
+}
+
+textarea:focus {
+    border: 1px solid #393939;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*/////////////////////////////////////////////////////*/
+/*           UNIVERSAL DESIGN FOR KNAPP                */
+/*/////////////////////////////////////////////////////*/
+
+.button {
+    background-color: #191919;
+    border: 1px solid #070707;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    border: 1px solid #393939;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:focus {
+    outline:0;
+}
+
+.button_false {
+    background-color: #921113;
+    border: 1px solid #070707;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button_false:hover {
+    border: 1px solid #393939;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.button_false:focus {
+    outline:0;
+}
+/*/////////////////////////////////////////////////////*/
+/*           MISLYKKET / VELYKKET FEEDBACK             */
+/*/////////////////////////////////////////////////////*/
+
+#mislykket {
+    width: 600px;
+    background-color: #761019;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #45080e;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+#velykket {
+    width: 600px;
+    background-color: #2b9f25;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #5ff158;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*/////////////////////////////////////////////////////*/
+/*        NOTAT OG NOTAT_FALSE(feilmelding)            */
+/*/////////////////////////////////////////////////////*/
+
+p.notat {
+    margin: 0 auto;
+    border-style: dotted;
+    border-color: #eeca20;
+    border-width: 2px;
+    background-color: #fbdd4f;
+    padding: 10px 10px;
+    width: 570px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+p.notat_false {
+    border-style: dotted;
+    border-color: #bf0000;
+    border-width: 2px;
+    background-color: #cd1622;
+    padding: 10px 10px;
+    width: 570px;
+    color: white;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+#online2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 10px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -150px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    background-color: rgba(28,28,28,0.95);
+}

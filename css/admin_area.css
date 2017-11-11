@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+#admindesign {
+    padding-top: 5px;
+    width: 600px; 
+    height: 20px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#admindesign a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#admindesign a:hover {
+    color: hotpink;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#mislykkket {
+    width: 600px;
+    background-color: #761019;
+    color: aliceblue;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #45080e;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#velykket {
+    width: 600px;
+    background-color: #2b9f25;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #5ff158;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#admin {
+    padding-top: 10px;
+}
+
+#adminfunksjon {
+    width: 580px;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#admin_nyhet {
+    width: 580px;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#adminfunksjon:hover {
+    background-color: orange;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.wrapper {
+    padding-top: 10px;
+}
+
+.nyhettext {
+  width: 580px;
+  height: 150px;
+}

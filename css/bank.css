@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#settinn {
+    float: left;
+    width: 299px;
+    height: 90px;
+    padding-top: 10px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-right: 1px solid black;
+}
+
+#taut {
+    float: right;
+    width: 300px;
+    height: 90px;
+    padding-top: 10px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#overfor {
+    width: 600px;
+    padding-top: 115px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#overfor li {
+    margin: 5px;
+}
+
+#settinn li {
+    margin: 5px;
+}
+
+#taut li {
+    margin: 5px;
+}

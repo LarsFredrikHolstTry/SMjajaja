@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.container {
+    margin-top: 10px;
+}
+
+#hus {
+    border: 1px solid black;
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #070707;
+    font-size: 13px;
+}
+
+#hus li {
+    color: aliceblue;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+.oppgraderbtn {
+    width: 450px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.oppgraderbtn:hover {
+    background-color: darkgreen;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#oppgraderinfo {
+    border: 1px solid black;
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #0f0e0e;
+    font-size: 13px;
+}
+
+#oppgraderinfo li {
+    color: aliceblue;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+#mislykkket {
+    width: 600px;
+    background-color: #761019;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #45080e;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#velykket {
+    width: 600px;
+    background-color: #2b9f25;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #5ff158;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+} 

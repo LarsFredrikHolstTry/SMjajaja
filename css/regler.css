@@ -1,0 +1,11 @@
+div#title {
+    font-size: 35px;
+    font-family: "Oswald";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#container {
+    width: 700px;
+    margin: 0 auto;
+}

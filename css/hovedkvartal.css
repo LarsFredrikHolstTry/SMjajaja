@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#container {
+    font-family: 'Roboto', sans-serif; 
+}
+
+#hoved {
+    width: 830px;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 16px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ventetid {
+    list-style-type: none;
+    width: 600px;
+    height: 50px;
+    background-color: white;
+}
+
+#ventetid a {
+    background-color: black;
+    padding: 20px;
+    width: 200px;
+    text-decoration: none;
+    color: aliceblue
+}

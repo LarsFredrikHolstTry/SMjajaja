@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#mislykket {
+    width: 600px;
+    background-color: #761019;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #45080e;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#velykket {
+    width: 600px;
+    background-color: #2b9f25;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #5ff158;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#coinflipdesign1 {
+    margin-top: 10px;
+    padding-top: 5px;
+    width: 600px; 
+    height: 20px;
+    color: white;
+    background-color: #070707;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#coinflipdesign {
+    width: 600px;
+    height: 20px;
+    padding-top: 5px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#coinflipdesign2 {
+    width: 600px;
+    height: 50px;
+    padding-top: 5px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#coinflipdesign3 {
+    width: 600px;
+    height: 100px;
+    padding-top: 5px;
+    color: white;
+    background-color: #0f0e0e;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#coinflipdesign4 {
+    padding-top: 5px;
+    width: 600px; 
+    height: 20px;
+    color: white;
+    background-color: #070707;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+    padding: 5px 10px;
+    background-color: #191919;
+    border: 1px solid #070707;
+    color: white;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1px solid #393939;
+    -webkit-transition: all 0.21s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.button {
+    background-color: #191919;
+    border: 1px solid #070707;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    border: 1px solid #393939;
+    -webkit-transition: all 0.21s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -2px 10px 0 0;
+    vertical-align:middle;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -0px top no-repeat;
+    cursor:pointer;
+    
+}
+
+input[type="radio"]:checked + label span {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -19px top no-repeat;
+}
+
+#mislykket a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#mislykket a:hover {
+    color: gray;
+}
+
+
+/* CODEPEN */

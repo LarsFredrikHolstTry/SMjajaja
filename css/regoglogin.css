@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-image: url('../images/logginn/bg.png');
+}
+
+div {
+    display: block;
+}
+
+p, span {
+    color: #C3C3C3;
+}
+
+#header {
+    height: 60px;
+    margin: 20px auto 15px auto;
+    width: 1200px;
+    background-image: url('../images/logginn/logo.png');
+    background-repeat: no-repeat;
+}
+
+#main_wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0px auto 0px auto;
+}
+
+#container {
+    float: left;
+    position: relative;
+    margin: 0px auto 0px auto;
+    width: 1200px;
+    min-height: 700px;
+    background-image: url('../images/logginn/bg_img.png');
+    background-position: left bottom;
+    box-shadow: 0px 0px 13px rgba(5,5,5,5);
+    border-radius: 5px;
+}
+
+#right_wrapper {
+    width: 320px;
+    float: right;
+}
+
+div#right_wrapper div#login {
+    margin: 35px 20px 0px 0px;
+    padding: 5px 15px 15px 15px;
+    background-color: rgba(28,28,28,0.95);
+    border-radius: 10px;
+}
+
+#sect_login {
+    display: none;
+}
+
+#login_title {
+    margin-bottom: 20px;
+    color: #DBDBDB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+input[type=text], input[type=password] {
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 100%;
+    padding: 7px 15px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    background-color: #c6c6c6;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+#login_form input[type="submit"], #login_form input[type="button"] {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 5px;
+    background-color: #8e1113;
+    color: #DBDBDB;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+#login_form input[type="submit"]:hover, #login_form input[type="button"]:hover {
+    background-color: #6d0d0f;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#reg_text {
+    color: #DBDBDB;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 15px;
+}
+
+#no_user input[type="submit"], #no_user input[type="button"] {
+    width: 100%;
+    display: inline-block;
+    margin-top: 2px;
+    padding: 5px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 5px;
+    background-color: #8e1113;
+    font-family: 'Roboto', sans-serif;
+    color: #DBDBDB;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#no_user input[type="submit"]:hover, #no_user input[type="button"]:hover {
+    background-color: #6d0d0f;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+div#container div#footer_info {
+    opacity: 1;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 1200px;
+    min-height: 100px;
+    background-color: rgba(28,28,28,0.95);
+    transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    -webkit-transition: opacity 0.7s;
+    -o-transition: opacity 0.7s;
+}
+
+div#container div#footer_info {
+    padding: 5px;
+    width: 1190px;
+    min-height: 20px;
+    background-color: #1E1E1E;
+    background-color: rgba(30,30,30,0.95);
+}
+
+#title_about {
+    font-family: 'Roboto', sans-serif;
+    color: #DBDBDB;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #000;
+    margin-left: 10px;
+}
+
+#text_about {
+    font-family: 'Roboto', sans-serif;
+    color: #DBDBDB;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #000;
+    margin-left: 10px;
+    margin-right: 17px;
+}
+
+div#footer {
+    margin: 25px auto 25px auto;
+    width: 1200px;
+    font-family: 'Roboto', sans-serif;
+    color: #D1D1D1;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 750px;
+}
+
+.button {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    width: 260px;
+    display: inline-block;
+    margin-top: 2px;
+    padding: 5px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 5px;
+    background-color: #8e1113;
+    color: #DBDBDB;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #6d0d0f;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#regler {
+    color: white;
+}
+
+#mislykket {
+    width: 600px;
+    background-color: #761019;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #45080e;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mislykket a {
+    color: white;
+}
+
+#velykket {
+    width: 600px;
+    background-color: #2b9f25;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #5ff158;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#drept {
+    padding-top: 200px;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#drept a {
+    text-decoration: none;
+    color: white;
+}
+
+#drept a:hover {
+    text-decoration: underline;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}

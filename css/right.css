@@ -1,0 +1,142 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color: #191919;
+	
+}
+
+/* right menu bar */
+#right {
+    width: 185px;
+    min-height: 773px;
+    padding-bottom: 15px;
+    float: right;
+    background-color: #0f0e0e;
+    color: aliceblue;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#right li {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+#right h2 {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#right h3 {
+    font-size: 15px;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+#right h3 a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#right h3 a:hover {
+    color: #c81113;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#right h4 {
+    font-size: 17px;
+    margin-bottom: -5px;
+    margin-top: 15px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#right img {
+    padding-top: 10px;
+    padding-bottom: 7px;
+    display:block;
+    margin:auto;
+}
+
+#right li a { 
+    text-decoration: none; 
+    color: gray; 
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+#right li a:hover {
+    color: white;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#right hr {
+    border-color: black;
+}
+
+#red {
+    color: #c81113;
+}
+
+#usercar {
+    padding-top: 10px;
+    width: 145px;
+    height: auto;
+}
+
+#userweapon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 145px;
+    height: auto;
+}
+
+#klar {
+    float: right;
+    color: green;
+    margin-right: 40px;
+}
+
+#vente {
+    float: right;
+    color: orange;
+    margin-right: 40px;
+}
+
+#WIP {
+    float: right;
+    color: darkred;
+    margin-right: 40px;
+}
+
+.percentbar { 
+    background: grey;
+    width: 100px;
+    float: left;
+    height: 13px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+#percentages {
+    background: #c81113; 
+    width: 20px;
+    float: left;
+    height: 13px;
+}

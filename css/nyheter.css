@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#container {
+    padding-top: 10px;
+}
+
+#nyheterdesign {
+    padding-top: 5px;
+    width: 600px; 
+    height: 20px;
+    color: white;
+    background-color: #070707;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#containernyhet {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#containernyhet h2 {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+#containernyhet t {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#nyhetsinnlegg h1 {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#nyhetsinnlegg li {
+    text-shadow: 1px 1px 1px #000;
+    color: gray;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #0f0e0e;
+    margin: 1em 0;
+    padding: 0; 
+}

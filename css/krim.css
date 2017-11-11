@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+table { 
+    width: 600px; 
+    border-collapse: collapse; 
+    margin: 0px auto;
+}
+
+
+/* Zebra striping */
+
+
+tr:nth-of-type(odd) { 
+    background: rgb(0, 0, 0); 
+}
+th { 
+    background: #0f0e0e; 
+    color: white; 
+    font-weight: bold; 
+}
+
+td, th { 
+    padding: 10px; 
+    border: 1px solid black; 
+    text-align: left; 
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+tr:hover {
+    background: #1f1e1e;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.krim {
+    width: 600px;
+    height: 40px;
+    background-color: #0f0e0e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.krim:hover {
+    background-color: #1f1e1e;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#krimcontainer2 {
+    padding-top: 10px;
+}
+
+#krimcontainer {
+    padding-top: 5px;
+    width: 600px; 
+    height: 20px;
+    color: white;
+    background-color: #070707;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#krimdesign2 {
+    padding-top: 5px;
+    width: 600px; 
+    height: 20px;
+    color: white;
+    background-color: #070707;
+    border-bottom: 1px solid black; 
+    font-size: 13px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ventetid {
+    width: 600px;
+    background-color: #761019;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #45080e;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#velykket {
+    width: 600px;
+    background-color: #2b9f25;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #5ff158;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.handling {
+    width: 600px;
+    height: 40px;
+    background-color: #0f0e0e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}

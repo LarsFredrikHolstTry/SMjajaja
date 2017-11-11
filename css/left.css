@@ -1,0 +1,83 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #191919;
+}
+
+/* left menu bar */
+#left {
+    width: 185px;
+    min-height: 773px;
+    padding-bottom: 15px;
+    float: left;
+    background-color: #0f0e0e;
+    color: aliceblue;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#left li {
+    margin-left: 20px;
+    margin-top: 6px;
+    font-size: 12px;
+    width: 100%;
+}
+
+#left h2 {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#left li a {
+    text-decoration: none;
+    color: gray;
+    padding: 2px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+t {
+    text-shadow: 1px 1px 1px #000;
+}
+
+#left li a:hover {
+    color: white;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#red {
+    color: #c81113;
+}
+
+#klar {
+    float: right;
+    color: green;
+    margin-right: 40px;
+}
+
+#vente {
+    float: right;
+    color: orange;
+    margin-right: 40px;
+}
+
+#WIP {
+    float: right;
+    color: #c81113;
+    margin-right: 40px;
+}
